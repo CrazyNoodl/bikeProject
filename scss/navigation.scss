@@ -1,0 +1,23 @@
+.nav__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav__link {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #342860;
+    padding: 0 40px;
+
+    &:hover {
+        color: inherit;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}

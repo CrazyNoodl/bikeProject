@@ -1,0 +1,13 @@
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1650px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+.container--work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(600px, auto);
+}

@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+
+body {
+    @include main-font;
+    font-weight: $main-weight;
+    line-height: $main-height;
+    color: $main-color;
+    font-size: $main-size;
+}
+
+@import 'section';
+@import 'container';
+@import 'button';
+@import 'titles';
+@import 'navigation';
+@import 'header';
+@import 'about';
+@import 'work';
+@import 'twitter';
+@import 'shop';
+@import 'mailing';
+@import 'footer';
+
+* {
+    box-sizing: border-box;
+}
