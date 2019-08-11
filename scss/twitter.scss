@@ -1,0 +1,24 @@
+.twitter_box {
+    margin: 0 auto;
+    max-width: 1040px;
+    width: 100%;
+}
+
+.twitter__icon {
+    margin-bottom: 30px;
+}
+
+.twitter__title {
+    margin-bottom: 15px;
+    text-transform: none;
+
+    span {
+        font-style: italic;
+        color: #848789;
+    }
+}
+
+.twitter__text {
+    font-size: 24px;
+    font-style: italic;
+}

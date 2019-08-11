@@ -345,6 +345,9 @@ body {
 .section--about {
   padding: 120px 0 140px; }
 
+.section--twitter {
+  padding: 120px 0 60px; }
+
 /* Container */
 .container {
   width: 100%;
@@ -356,6 +359,9 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(600px, auto); }
+
+.container--twitter {
+  text-align: center; }
 
 .title {
   font-size: 18px;
@@ -449,6 +455,25 @@ body {
     height: 1px;
     width: 75px;
     background-color: #848789; }
+
+.twitter_box {
+  margin: 0 auto;
+  max-width: 1040px;
+  width: 100%; }
+
+.twitter__icon {
+  margin-bottom: 30px; }
+
+.twitter__title {
+  margin-bottom: 15px;
+  text-transform: none; }
+  .twitter__title span {
+    font-style: italic;
+    color: #848789; }
+
+.twitter__text {
+  font-size: 24px;
+  font-style: italic; }
 
 * {
   box-sizing: border-box; }
