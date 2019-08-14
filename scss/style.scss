@@ -8,6 +8,11 @@ body {
     line-height: $main-height;
     color: $main-color;
     font-size: $main-size;
+    //background-color: #f7f7f7;
+}
+
+.footer {
+    padding: 90px 0 100px;
 }
 
 @import 'section';
