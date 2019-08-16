@@ -7,6 +7,10 @@
 
 .about__title {
     padding: 30px 0;
+
+    @include mobile {
+       padding: 15px 0;
+    }
 }
 
 .about__text {
@@ -18,5 +22,11 @@
 
     @include tablet {
         max-width: 768px;
+    }
+
+    @include mobile {
+        max-width: 668px;
+        font-size: 14px;
+        line-height: 1.5;
     }
 }

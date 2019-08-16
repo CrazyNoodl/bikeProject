@@ -27,4 +27,9 @@
     @include tablet {
         max-width: 768px;
     }
+
+    @include mobile {
+         max-width: 668px;
+        font-size: 20px;
+    }
 }

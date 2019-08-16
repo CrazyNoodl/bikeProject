@@ -6,6 +6,10 @@
     @include tablet {
         padding: 70px 0;
     }
+
+    @include mobile {
+        padding: 45px 0;
+    }
 }
 
 .mailing__logo {
@@ -50,7 +54,7 @@
     height: 70px;
     background-color: $thems-color;
     border: none;
-    font-weight: 3dgdfsdd00;
+    font-weight: 300;
     font-size: 24px;
     color: #fff;
     line-height: 1;

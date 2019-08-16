@@ -20,4 +20,8 @@
     &:focus {
         outline: none;
     }
+
+    @includ mobile {
+        padding: 0 15px;
+    }
 }
