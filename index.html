@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="slider/owl.carousel.min.css">
+    <link rel="stylesheet" href="slider/owl.theme.default.min.css">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -57,7 +60,7 @@
     </section>
 
     <!-- Work -->
-   <main class="section">
+    <main class="section">
         <div class="container container--work">
             <div class="work__inner">
                 <div class="work__item">
@@ -114,30 +117,50 @@
     <!-- Twitter -->
     <section class="section section--twitter">
         <div class="container container--twitter">
-            <div class="twitter_box">
-                <img src="img/twitter/1.png" alt="" class="twitter__icon">
-                <h3 class="title twitter__title">
-                    AOD New York @aod <span>/ 35 min</span>
-                </h3>
-                <p class="twitter__text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.
-                </p>
+            <div class="owl-carousel owl-theme">
+                <div class="twitter__item">
+                    <i class="twitter__icon fab fa-twitter"></i>
+                    <h3 class="title twitter__title">
+                        AOD New York @aod <span>/ 35 min</span>
+                    </h3>
+                    <p class="twitter__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.
+                    </p>
+                </div>
+                <!--slide-->
+                <div class="twitter__item">
+                    <i class="twitter__icon fab fa-twitter"></i>
+                    <h3 class="title twitter__title">
+                        AOD New York @aod <span>/ 35 min</span>
+                    </h3>
+                    <p class="twitter__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.
+                    </p>
+                </div>
+                <!--slide-->
+                <div class="twitter__item">
+                    <i class="twitter__icon fab fa-twitter"></i>
+                    <h3 class="title twitter__title">
+                        AOD New York @aod <span>/ 35 min</span>
+                    </h3>
+                    <p class="twitter__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.
+                    </p>
+                </div>
             </div>
+            <!--twitter__inner-->
         </div>
+        <!--container--twitter-->
     </section>
 
     <!-- Shop -->
     <section class="section">
         <div class="container container--shop">
             <div class="shop__inner">
-                <div class="shop__item">
-
-                </div>
                 <div class="shop__item"></div>
                 <div class="shop__item"></div>
-                <div class="shop__item">
-
-                </div>
+                <div class="shop__item"></div>
+                <div class="shop__item"></div>
                 <div class="shop__item">
                     <img class="shop__logo" src="/img/shop/logo.png" alt="">
                 </div>
@@ -193,7 +216,11 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="slider/owl.carousel.min.js"></script>
 
+    <script src="main.js"></script>
 </body>
 
 </html>

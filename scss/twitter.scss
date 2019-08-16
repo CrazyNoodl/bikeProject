@@ -1,12 +1,17 @@
-.twitter_box {
+twitter__item {
     margin: 0 auto;
     max-width: 1040px;
     width: 100%;
 }
 
+
 .twitter__icon {
+    display: block;
     margin-bottom: 30px;
+font-size: 50px;
+    color: #56c7ee;
 }
+
 
 .twitter__title {
     margin-bottom: 15px;
@@ -23,13 +28,15 @@
     font-style: italic;
     margin-bottom: 100px;
     margin: 0 auto;
+    max-width: 1045px;
+    margin-bottom: 100px;
 
     @include tablet {
         max-width: 768px;
     }
 
     @include mobile {
-         max-width: 668px;
+        max-width: 668px;
         font-size: 20px;
     }
 }

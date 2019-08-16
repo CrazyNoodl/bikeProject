@@ -352,7 +352,7 @@ body {
       padding: 40px 0 60px; } }
 
 .section--twitter {
-  padding: 120px 0 60px; }
+  padding: 120px 0 70px; }
   @media (max-width: 1023px) {
     .section--twitter {
       padding: 80px 0 100px; } }
@@ -529,7 +529,7 @@ body {
   @media (max-width: 1199px) {
     .work__box {
       padding: 45px; } }
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     .work__box {
       padding: 25px; } }
   .work__box:after {
@@ -566,13 +566,16 @@ body {
   width: 100%;
   height: auto; }
 
-.twitter_box {
+twitter__item {
   margin: 0 auto;
   max-width: 1040px;
   width: 100%; }
 
 .twitter__icon {
-  margin-bottom: 30px; }
+  display: block;
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: #56c7ee; }
 
 .twitter__title {
   margin-bottom: 15px;
@@ -585,7 +588,9 @@ body {
   font-size: 24px;
   font-style: italic;
   margin-bottom: 100px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 1045px;
+  margin-bottom: 100px; }
   @media (max-width: 1023px) {
     .twitter__text {
       max-width: 768px; } }

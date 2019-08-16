@@ -1,9 +1,7 @@
 .section {
     background-color: #f7f7f7;
 
-    @include pc {
-
-    }
+    @include pc {}
 }
 
 .section--header {
@@ -27,7 +25,7 @@
 }
 
 .section--twitter {
-    padding: 120px 0 60px;
+    padding: 120px 0 70px;
 
     @include tablet {
         padding: 80px 0 100px;
