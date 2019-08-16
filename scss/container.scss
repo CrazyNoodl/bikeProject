@@ -1,21 +1,10 @@
 /* Container */
 .container {
     width: 100%;
-    max-width: 1650px;
-    padding: 0 25px;
+    max-width: 1600px;
     margin: 0 auto;
-}
-
-.container--work {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(600px, auto);
 }
 
 .container--twitter {
     text-align: center;
-}
-
-.container--mailing {
-    background-color: #fff;
 }
