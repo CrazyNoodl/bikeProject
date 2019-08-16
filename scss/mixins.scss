@@ -3,6 +3,12 @@
     font-family: 'Lato', sans-serif;
 }
 
+@mixin pc {
+    @media (max-width: #{$pc-max-width - 1}px) {
+        @content;
+    }
+}
+
 @mixin tablet {
     @media (max-width: #{$tablet-max-width - 1}px) {
         @content;
@@ -26,5 +32,3 @@
         @content;
     }
 }
-
-

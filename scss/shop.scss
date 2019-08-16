@@ -97,6 +97,10 @@
     padding: 75px 0;
     background-color: #282f35;
     text-align: center;
+
+    @include tablet {
+        padding: 65px 0;
+    }
 }
 
 .shop__button {

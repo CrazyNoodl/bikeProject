@@ -15,4 +15,8 @@
     margin: 0 auto;
     text-align: center;
     font-size: 18px;
+
+    @include tablet {
+        max-width: 768px;
+    }
 }
