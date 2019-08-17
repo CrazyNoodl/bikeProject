@@ -2,7 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
+    @include mobile {
+        display: none;
+    }
 }
 
 .nav__link {

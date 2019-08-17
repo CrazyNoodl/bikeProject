@@ -1,7 +1,17 @@
 .footer__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+
+    @include mobile {
+        grid-template-columns: 1fr;
+         text-align: center;
+    }
+}
+
+.footer__adress {
+    margin-bottom: 15px;
 }
 
 .footer__title {
@@ -10,17 +20,19 @@
 
 .footer__social {
     font-size: 35px;
+    text-align: center;
+
+    @include mobile {
+        margin-bottom: 15px;
+    }
 }
 
 .footer__text {
     font-style: italic;
     line-height: 1.3;
-
 }
 
-.footer__link {
-
-}
+.footer__link {}
 
 .fa-twitter-square {
     color: #80d0f0;
@@ -34,4 +46,10 @@
     color: #eb5755;
 }
 
-.footer__copyright {}
+.footer__copyright {
+    text-align: right;
+
+    @include mobile {
+        text-align: center;
+    }
+}

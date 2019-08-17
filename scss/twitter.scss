@@ -4,7 +4,6 @@ twitter__item {
     width: 100%;
 }
 
-
 .twitter__icon {
     display: block;
     margin-bottom: 30px;
@@ -33,6 +32,7 @@ font-size: 50px;
 
     @include tablet {
         max-width: 768px;
+        margin-bottom: 50px;
     }
 
     @include mobile {
