@@ -11,6 +11,10 @@
     @include mobile {
        padding: 15px 0;
     }
+
+    @include mobile8p {
+        font-size: 13px;
+    }
 }
 
 .about__text {
@@ -28,5 +32,9 @@
         max-width: 668px;
         font-size: 14px;
         line-height: 1.5;
+    }
+
+    @include mobile8p {
+        padding: 0 15px;
     }
 }
