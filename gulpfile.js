@@ -1,17 +1,17 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
+const imagemin = require('gulp-imagemin');
 // const gulpStylelint = require('gulp-stylelint');
 
 function style() {
-    return gulp.src('./scss/style.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('./css'))
-        .pipe(browserSync.stream())
+  return gulp.src('./scss/style.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('./css'))
+    .pipe(browserSync.stream())
 }
 
-
-//function lintCss() {
+// function lintCss() {
 //  return gulp.src('./scss/**/*.scss')
 //    .pipe(gulpStylelint({
 //      reporters: [
@@ -21,20 +21,27 @@ function style() {
 //  }
 // ]
 //   }));
-//}
+// }
 
 function watch() {
-    browserSync.init({
+  browserSync.init({
 
-        server: {
-            baseDir: './'
-        }
-    })
-    gulp.watch('./scss/**/*.scss', style);
-    gulp.watch('./*.html').on('change', browserSync.reload);
+    server: {
+      baseDir: './'
+    }
+  })
+  gulp.watch('./scss/**/*.scss', style);
+  gulp.watch('./*.html').on('change', browserSync.reload);
 }
 
+function img() {
+ return gulp.src('img/**/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('dist/images'))
+};
 
 exports.style = style;
-//exports.lintCss = lintCss;
+// exports.lintCss = lintCss;
 exports.watch = watch;
+exports.watch = img;
+
